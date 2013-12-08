@@ -2101,7 +2101,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/tmcinerney</string>
+			<string>/Users/maximeprades</string>
 		</dict>
 	</array>
 	<key>NoSyncNeverRemindPrefsChangesCopy</key>
@@ -2154,7 +2154,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/tmcinerney/Code/personal/dotfiles/iterm</string>
+	<string>/Users/maximeprades/Code/personal/dotfiles/iterm</string>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
