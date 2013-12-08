@@ -119,7 +119,7 @@ eval "$(rbenv init -)"
 
 
 # Z Bootstrap
-eval "$(/Users/tmcinerney/Code/zendesk/z/bin/z init -)"
+eval "$(/Users/maximeprades/Code/zendesk/z/bin/z init -)"
 
 # Aliases
 #alias apps="cd $ZENDESK_ROOT/apps"
@@ -165,4 +165,4 @@ eval "$(rbenv init -)"
 
 
 # Z Bootstrap
-eval "$(/Users/tmcinerney/Code/zendesk/z/bin/z init -)"
+eval "$(/Users/maximeprades/Code/zendesk/z/bin/z init -)"
