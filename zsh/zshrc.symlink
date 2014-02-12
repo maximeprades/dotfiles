@@ -13,7 +13,11 @@ alias watch='tail -f log/development.log'
 export EDITOR='mvim -f'
 export PATH="~/bin:$PATH"
 
+set -o vi
+
+# Disable auto correct
 unsetopt correct
+
 
 # RUBY
 # ********************************************************
@@ -62,6 +66,14 @@ then
   alias ll="gls -l --color"
   alias la='gls -A --color'
 fi
+
+# Hitch
+hitch() {
+  command hitch "$@"
+  if [[ -s "$HOME/.hitch_export_authors" ]] ; then source "$HOME/.hitch_export_authors" ; fi
+}
+alias unhitch='hitch -u'
+
 
 # GRC [colorizes nifty unix tools all over the place]
 if $(grc &>/dev/null) && ! $(brew &>/dev/null)
