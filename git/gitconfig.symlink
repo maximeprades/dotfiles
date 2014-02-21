@@ -1,6 +1,6 @@
 [user]
-	name = Travers McInerney
-	email = travers@mcinerney.me
+	name = Maxime Prades
+	email = mprades@zendesk.com
 
 [alias]
   a       = add -p
@@ -11,7 +11,7 @@
   br      = branch
   hist    = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
   lg      = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-  standup = log --since=yesterday --author='Travers McInerney'
+  standup = log --since=yesterday --author='Maxime Prades'
 
 [core]
 	editor = vim
