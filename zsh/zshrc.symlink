@@ -83,6 +83,3 @@ fi
 
 # RBENV
 eval "$(rbenv init -)"
-
-# Z Bootstrap
-val "$(/Users/maximeprades/Code/zendesk/z/bin/z init -)"
