@@ -1,13 +1,25 @@
-colorscheme Tomorrow-Night-Bright
+" Interface
+set guifont=Sauce\ Code\ Powerline:h14
+set background=dark
+"let base16colorspace=256
+colorscheme base16-ocean
 
+" Use the mouse
 set mouse=a
 
-" Move between splits
-map <c-j> <c-w>j
-map <c-k> <c-w>k
-map <c-l> <c-w>l
-map <c-h> <c-w>h
+" Prevent 'Ex mode'
+:nnoremap Q <Nop>
 
 " Better Ack
 nmap <leader>f :Ack! 
 
+" Folding
+set foldcolumn=2
+set foldlevelstart=20
+set foldmethod=indent
+
+" treat folds as text-objects
+vnoremap af :<C-U>silent! normal! [zV]z<CR>
+omap af :normal Vaf<CR>
+
+autocmd FileType ruby set foldmethod=syntax
